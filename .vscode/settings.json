@@ -1,0 +1,22 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/XDG_CACHE_HOME": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/*.egg-info": true,
+    },
+    "restructuredtext.confPath": "",
+    "editor.rulers": [
+        100
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.pylamaEnabled": true,
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "100"
+    ],
+    "python.pythonPath": "/home/julien/git/mobaspace/syspad_monitor/venv/bin/python3",
+    "python.formatting.provider": "black"
+}
